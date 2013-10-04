@@ -2,11 +2,12 @@
   "version"    : "0.2.0",
   "author"     : "Tatsuhiko Kubo <cubicdaiya@gmail.com>",
   "description": "A diff template library binding for nodewebkit",
-  "scripts"    : { "install": "nw-gyp configure --target=>0.7.3 rebuild" },
+  "scripts"    : { "install-nw": "nw-gyp configure --target=>0.7.3 rebuild",
+                   "install": "node-gyp rebuild"},
   "main"       : "./dtl",
   "keywords"   : [ "diff", "diff3", "editdistance", "unified format" ],
   "licenses"   : [ { "type": "BSD", "url": "https://github.com/cubicdaiya/node-dtl/raw/master/COPYING" } ],
-  "repository" : { "type": "git", "url": "https://github.com/cubicdaiya/node-dtl.git" },
+  "repository" : { "type": "git", "url": "https://github.com/EchoGlobalLogistics/node-dtl.git" },
   "scripts": {
     "test": "nodeunit test"
   }
